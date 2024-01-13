@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>HTML TAG</title>
+    </head>
+    <body>
+        <center>
+            <h1>Marquee Tag..!</h1>
+        </center>
+        <hr>
+
+        <Marquee>This is a Marquee Tag..!</Marquee>
+        <Marquee><a href="#">This is a Marquee Tag..!</a></Marquee>
+        <Marquee bgcolor="Teal">This is a Marquee Tag..!</Marquee>
+
+        <br><hr><br>
+
+        <h2>Marquee Tag Behavior Attribute</h2>
+        <Marquee behavior ="Alternate" bgcolor="skyblue">This is an Alternate Marquee Tag..!</Marquee>
+        <br><br>
+        <Marquee behavior ="Scroll" bgcolor="Skyblue">This is a Scroll Marquee Tag..!</Marquee>
+        <br><br>
+        <Marquee behavior ="Slide" bgcolor="skyblue">This is a Slide Marquee Tag..!</Marquee>
+        <br><br><hr>
+
+        <h2>MARQUEE TAG DIRECTION ATTRBUTE</h2>
+
+        <Marquee direction="right" bgcolor="teal">This is a right direction Marquee Tag..!</Marquee>
+        <br><br>
+        <Marquee direction="left" bgcolor="teal">This is a left direction Marquee Tag..!</Marquee>
+        <br><br>
+        <Marquee direction="up" bgcolor="teal" height="100">This is a up direction Marquee Tag..!</Marquee>
+        <br><br>
+        <Marquee direction="down" bgcolor="teal" height="100">This is a down direction Marquee Tag..! </Marquee>
+        <br><br><hr>
+
+        <h2>Marquee Tag Scrollamount Attribute</h2>
+        <Marquee bgcolor="skyblue" scrollamount="1">This is Marquee Tag..!</Marquee>
+        <br><br>
+        <Marquee bgcolor="skyblue" scrollamount="20" id="test">This is Marquee Tag..!</Marquee>
+        <br><br>
+        <Marquee bgcolor="skyblue" scrollamount="10">This is Marquee Tag..!</Marquee>
+        <br><br>
+        <Marquee bgcolor="skyblue" scrollamount="5">This is Marquee Tag..!</Marquee>
+        <br><hr><br>
+
+        <h2>Marquee Tag Javascript Code</h2>
+        <script>
+            document.getElementById('test').onmouseenter = function(){
+                document.getElementById('test').stop();
+            }
+            document.getElementById('test').onmouseleave = function(){
+                document.getElementById('test').start();
+        </script>
+
+    </body>
+</html>
